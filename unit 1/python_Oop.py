@@ -1,6 +1,6 @@
 # Python OOP - object oreinted programing
 
-# object - A represenation 
+#Python OOP - object oreinted programing 
 # of some complex data structure 
 # *data types (... and functions in this case)
 # Although they maybe the same thing, objectively, onjects

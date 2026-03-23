@@ -1,0 +1,22 @@
+# Libary = places that stores alot of books / imnformation 
+
+# python Libraries/modules = files/folders that contain functions anf data that we can
+# use quickly and easily. these are code instructions that were already written
+# for us. we just need to call it.
+
+# we use the IMPORT keyword to bring in libraries/ modlues into our code.
+import example 
+import random
+
+
+# example.calculate(3)
+
+newStudent = example.student('Billy',90 ,10, 'NA'True, 10)
+print(newStudent.name)
+
+number = random.randrange(0,10)
+print(number)
+
+# bulit in modules - a object that is already bulit in to the promgraming 
+
+# local modules - object that stored inside of a fille in our system
