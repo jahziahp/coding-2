@@ -1,0 +1,19 @@
+class movies():
+    def _init_(self, name, time, color, age):
+        self.name = name
+        self.time = time
+        self.color = color
+        self.age = age
+    
+    def Attendence(self):
+        if self.present == True:
+            print(self.name + 'is present')
+        else:
+            print(self.name + 'is present')
+    
+    def Agecheck(self):
+        if age < 18:
+            age= 18 . age
+            print('the user can go in and enjoy the movie')
+
+movies()
