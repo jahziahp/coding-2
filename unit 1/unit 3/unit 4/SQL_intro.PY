@@ -12,28 +12,48 @@ cursor = connect.cursor()
 cursor.execute('''
             CREATE TABLE gameSale(
                 id INTERGER PRIMARY KEY,
+                name TEXT,
                 platform TEXT,
-                devloper TEXT,
-                price INTEGR,
-                genre TETX,
+                developer TEXT,
+                price INTEGER,
+                genre TEXT,
                 totalSales INTEGER
                 )
              ''')
 
 # 5. we can now create our first databse object
 #cursor.execute('''
-#               INSERT INTO gameSales(platform, developer, price, genre, totalSales)
-#               VALUES('Crimson Dersert','PS5', 'oearl abyss',70, 'action/ adventure', 5000000 )
+#               INSERT INTO gameSales(name, platform, developer, price, genre, totalSales)
+#               VALUES('Crimson Dersert','PS5', 'pearl abyss',70, 'action/ adventure', 5000000 )
 #               ''')
 
 # 6. once we have new object, we can commit this to our database
 #connect.commit()
 #connect.close()
 
-cursor.execute('''
-               INSERT INTO gameSale(platform, developer, price, genre, totalSales)
-               VALUES('Call of duty','Steam', 'Actvison',70, 'action' , 6000000)
-               ''')
+#cursor.execute('''
+#               INSERT INTO gameSale(name, platform, developer, price, genre, totalSales)
+#               VALUES('Call of duty','Steam', 'Actvison',70, 'action' , 6000000)
+#               ''')
 
-connect.commit()
-connect.close()
+#connect.commit()
+#connect.close()
+
+# NUL means nothing and a data type and have no vaule
+
+#cursor.execute('''
+#               INSERT INTO gameSale(name, platform, developer, price, genre, totalSales)
+#               VALUES('Starfeild','Steam', 'Bethesda',50, 'Sci-fi/Action' , 3000000)
+#               ''')
+# update computers
+# set platform
+# cursor.execute('''
+#                UPDATE
+#                SET platform = 'PS5'
+#                WHERE name = 'Call od Duty' 
+               
+#                ''')
+
+
+#connect.commit()
+#connect.close()
