@@ -22,9 +22,9 @@
 
 #getALLData()
 
-
+import sqlite3
 def getALLData():
-    connect= sqlite3. connect('myDb.db')
+    connect= sqlite3.connect('myDb.db')
     
     cursor= connect.cursor()
     
@@ -36,4 +36,11 @@ def getALLData():
 
     print(results)
 
-getALLData()
+#getALLData()
+
+def deleteData():
+    connect= sqlite3.connect('myDb.db')
+
+    cursor =" DELETE FROM gamesale WHERE name= Starfeild"
+
+    cursor.execute(query)
